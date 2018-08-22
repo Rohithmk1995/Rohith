@@ -7,8 +7,8 @@ app.use(express.static(__dirname + '/dist'));
 app.listen(process.env.PORT || 8080);
 
 app.get('*', function(req, res){
-    const index = path.join(__dirname, 'dist','index.html');
-    res.sendFile(index);
+    // const index = path.join(__dirname, 'dist','index.html');
+    res.sendFile('/dist/index.html');
 });
 
 console.log("Welcome To my page!!");
