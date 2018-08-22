@@ -1,0 +1,57 @@
+blockquote{
+    border-left:none
+}
+
+
+.quote-box{
+    
+    overflow: hidden;
+    margin-top: -50px;
+    padding-top: -100px;
+    border-radius: 20px;
+    background-color: rgb(65, 182, 255);
+    margin-top: 25px;
+    color:white;
+    width: 500px;
+    box-shadow: 5px 5px 5px 5px #E0E0E0;
+    
+}
+
+.quotation-mark{
+    
+    margin-left: 10px;
+    margin-top: -10px;
+    font-weight: bold;
+    font-size:100px;
+    color:white;
+    font-family: "Times New Roman", Georgia, Serif;
+    
+}
+
+.quote-text{
+    
+    font-size: 19px;
+    margin-top: -65px;
+    margin-left: 20px;
+}
+
+.quote-by{
+    margin-left: 20px;
+}
+
+.contact-box{
+    
+    overflow: hidden;
+    margin-top: -50px;
+    padding-top: -100px;
+    border-radius: 20px;
+    margin-top: 25px;
+    color:white;
+    width: 500px;
+    
+}
+
+.contact-text{
+    color : black;
+    font-size: 19px;
+}
